@@ -1,7 +1,7 @@
 {
     "NAME"     : "Camera Mode Persistence",
-    "URL"      : "https://raw.githubusercontent.com/Real-Gecko/KSP-KeepItStraight/master/GameData/KeepItStraight/KeepItStraight.version",
-    "DOWNLOAD" : "",
+    "URL"      : "https://github.com/Real-Gecko/KSP-KeepItStraight/raw/master/GameData/KeepItStraight/KeepItStraight.version",
+    "DOWNLOAD" : "http://spacedock.info/mod/824/Keep%20It%20Straight",
     "GITHUB" :
     {
         "USERNAME" : "Real-Gecko",
