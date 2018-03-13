@@ -1,47 +1,51 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using KSP.IO;
 
 namespace KeepItStraight
 {
-	[KSPAddon(KSPAddon.Startup.Flight, false)]
-	public class KeepItStraight: MonoBehaviour
-	{
-		public static KeepItStraight instance;
-		private PluginConfiguration config;
-		FlightCamera camera;
+    [KSPAddon(KSPAddon.Startup.Flight, false)]
+    public class KeepItStraight : MonoBehaviour
+    {
+        public static KeepItStraight instance;
+        private PluginConfiguration config;
+        FlightCamera camera;
 
-		void Awake() {
-			if (instance != null) {
-				Destroy (this);
-				return;
-			}
+        void Awake()
+        {
+            if (instance != null)
+            {
+                Destroy(this);
+                return;
+            }
 
-			if (config == null) {
-				config = PluginConfiguration.CreateForType<KeepItStraight> ();
-			}
-			config.load ();
-			camera = FlightCamera.fetch;
-			GameEvents.onFlightReady.Add (FlightReady);
-			GameEvents.onPartCouple.Add (onPartCouple);
-		}
+            if (config == null)
+            {
+                config = PluginConfiguration.CreateForType<KeepItStraight>();
+            }
+            config.load();
+            camera = FlightCamera.fetch;
+            GameEvents.onFlightReady.Add(FlightReady);
+            GameEvents.onPartCouple.Add(PartCouple);
+        }
 
-		void OnDestroy()
-		{
-			GameEvents.onFlightReady.Remove (FlightReady);
-			GameEvents.onPartCouple.Remove (onPartCouple);
-			config.SetValue ("CameraMode", FlightCamera.CamMode);
-			config.save ();
-		}
+        void OnDestroy()
+        {
+            GameEvents.onFlightReady.Remove(FlightReady);
+            GameEvents.onPartCouple.Remove(PartCouple);
+            config.SetValue("CameraMode", FlightCamera.CamMode);
+            config.save();
+        }
 
-		void FlightReady() {
-			int CamMode = config.GetValue<int>("CameraMode");
-			camera.setModeImmediate((FlightCamera.Modes)CamMode);
-		}
+        void FlightReady()
+        {
+            int CamMode = config.GetValue<int>("CameraMode");
+            camera.setModeImmediate((FlightCamera.Modes)CamMode);
+        }
 
-		void onPartCouple(GameEvents.FromToAction<Part,Part> action) {
-			int CamMode = config.GetValue<int>("CameraMode");
-			camera.setModeImmediate((FlightCamera.Modes)CamMode);
-		}
-	}
+        void PartCouple(GameEvents.FromToAction<Part, Part> action)
+        {
+            int CamMode = config.GetValue<int>("CameraMode");
+            camera.setModeImmediate((FlightCamera.Modes)CamMode);
+        }
+    }
 }
