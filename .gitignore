@@ -38,3 +38,7 @@ Thumbs.db
 
 #dotCover
 *.dotCover
+.vs/KeepItStraight/v15/Server/sqlite3/db.lock
+.vs/KeepItStraight/v15/Server/sqlite3/storage.ide
+.vs/KeepItStraight/v15/Server/sqlite3/storage.ide-shm
+.vs/KeepItStraight/v15/Server/sqlite3/storage.ide-wal

@@ -3,6 +3,9 @@ using KSP.IO;
 
 namespace KeepItStraight
 {
+    /// <summary>
+    /// Preserver selected camera between scene changes
+    /// </summary>
     [KSPAddon(KSPAddon.Startup.Flight, false)]
     public class KeepItStraight : MonoBehaviour
     {
@@ -10,6 +13,9 @@ namespace KeepItStraight
         private PluginConfiguration config;
         FlightCamera camera;
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
         void Awake()
         {
             if (instance != null)
@@ -28,6 +34,10 @@ namespace KeepItStraight
             GameEvents.onPartCouple.Add(PartCouple);
         }
 
+
+        /// <summary>
+        /// Cleanup after ourself
+        /// </summary>
         void OnDestroy()
         {
             GameEvents.onFlightReady.Remove(FlightReady);
@@ -36,12 +46,21 @@ namespace KeepItStraight
             config.save();
         }
 
+
+        /// <summary>
+        /// Set camera when changing to flight scene
+        /// </summary>
         void FlightReady()
         {
             int CamMode = config.GetValue<int>("CameraMode");
             camera.setModeImmediate((FlightCamera.Modes)CamMode);
         }
 
+
+        /// <summary>
+        /// Set camera on part couple
+        /// </summary>
+        /// <param name="action"></param>
         void PartCouple(GameEvents.FromToAction<Part, Part> action)
         {
             int CamMode = config.GetValue<int>("CameraMode");
