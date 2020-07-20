@@ -4,7 +4,7 @@ using KSP.IO;
 namespace KeepItStraight
 {
     /// <summary>
-    /// Preserver selected camera between scene changes
+    /// Preserve selected camera between scene changes
     /// </summary>
     [KSPAddon(KSPAddon.Startup.Flight, false)]
     public class KeepItStraight : MonoBehaviour

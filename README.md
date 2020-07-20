@@ -3,6 +3,9 @@
 Remembers camera mode between scene switches so you will not end up with AUTO every time.
 
 # Changelog
+## Version 1.2.0
+- Recompile for KSP 1.10
+
 ## Version 1.1.0
 - KSP 1.8 compatibility
 
