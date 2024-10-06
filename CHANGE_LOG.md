@@ -1,2 +1,27 @@
 # Keep It Straight :: Change Log
 
+* 2021-1103: 1.4.0 (maja) for KSP 1.12.5
+	+ Changes
+		- KSP 1.12+ compatibility
+* 2021-0207: 1.3.0 (maja) for KSP 1.12.2
+	+ KSP 1.11+ compatibility
+* 2020-0720: 1.2.0 (maja) for KSP 1.10.1
+	+ KSP 1.10+ compatibility
+* 2019-1020: 1.1.0 (maja) for KSP 1.8.1
+	+ KSP 1.8+ compatibility
+* 2019-0603: 1.0.7 (maja) for KSP 1.7.3
+	+ KSP 1.7.1+ compatibility
+* 2019-0428: 1.0.6 (maja) for KSP 1.7.0
+	+ Recompile for KSP 1.7
+* 2018-1019: 1.0.5 (maja) for KSP 1.5.1
+	+ Recompile for KSP 1.5
+* 2018-0314: 1.0.4 (maja) for KSP 1.4.1
+	+ Recompile for KSP 1.4.1
+* 2017-1011: 1.0.3 (RealGecko) for KSP 1.3.1
+	+ Recompile for KSP 1.3.1
+* 2017-0530: 1.0.2 (RealGecko) for KSP 1.3.0
+	+ Recompile for KSP 1.3.0
+* 2016-1012: 1.0.1 (RealGecko) for KSP 1.2.2
+	+ Camera mode is not reset to AUTO after docking is complete
+* 2016-0705: 1.0.0 (RealGecko) for KSP 1.1.3
+	+ For KSP 1.1.3
