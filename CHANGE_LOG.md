@@ -1,5 +1,7 @@
 # Keep It Straight :: Change Log
 
+* 2019-0428: 1.0.6 (maja) for KSP 1.7.0
+	+ Recompile for KSP 1.7
 * 2018-1019: 1.0.5 (maja) for KSP 1.5.1
 	+ Recompile for KSP 1.5
 * 2018-0314: 1.0.4 (maja) for KSP 1.4.1
