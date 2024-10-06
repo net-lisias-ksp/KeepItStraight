@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepItStraight", "KeepItStraight\KeepItStraight.csproj", "{5E5E0A31-A650-430A-A481-B482E3956228}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepItStraight", "Source\KeepItStraight\KeepItStraight.csproj", "{5E5E0A31-A650-430A-A481-B482E3956228}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
