@@ -1,5 +1,7 @@
 # Keep It Straight :: Change Log
 
+* 2019-1020: 1.1.0 (maja) for KSP 1.8.1
+	+ KSP 1.8+ compatibility
 * 2019-0603: 1.0.7 (maja) for KSP 1.7.3
 	+ KSP 1.7.1+ compatibility
 * 2019-0428: 1.0.6 (maja) for KSP 1.7.0
