@@ -1,5 +1,7 @@
 # Keep It Straight :: Change Log
 
+* 2017-1011: 1.0.3 (RealGecko) for KSP 1.3.1
+	+ Recompile for KSP 1.3.1
 * 2017-0530: 1.0.2 (RealGecko) for KSP 1.3.0
 	+ Recompile for KSP 1.3.0
 * 2016-1012: 1.0.1 (RealGecko) for KSP 1.2.2
