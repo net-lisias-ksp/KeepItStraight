@@ -13,8 +13,8 @@ Saves camera mode between scene changes and restores it.
 	+ [Known Issues](./KNOWN_ISSUES.md)
 	+ [Road Map](https://github.com/net-lisias-ksp/KeepItStraight/blob/master/ROAD_MAP.md)
 * Official Distribution Sites:
-<!--	+ [CurseForge](https://kerbal.curseforge.com/projects/KeepItStraight) -->
-<!--	+ [SpaceDock](https://spacedock.info/mod/127/KeepItStraight) -->
+	+ [CurseForge](https://legacy.curseforge.com/kerbal/ksp-mods/keep-it-straight)
+	+ [SpaceDock](https://spacedock.info/mod/4023/Keep%20It%20Startight!%20/L)
 	+ [Latest Release](https://github.com/net-lisias-ksp/KeepItStraight/releases)
 		- [Archive](https://github.com/net-lisias-ksp/KeepItStraight/tree/Archive)
 * Support
